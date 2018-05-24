@@ -1,0 +1,6 @@
+<<<<<<<<< saved version
+This is a task from the terminal
+
+=========
+
+>>>>>>>>> local version
