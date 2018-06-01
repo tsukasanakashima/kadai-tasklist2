@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>Bootstrap Template</title>
+
+        <!-- Bootstrap CSS-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Bootstrap JavaScript-->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    
+    
+    <body>
+        <table  class="table">
+    <tr>
+        <th class="text-center">都道府県</th>
+        <th class="text-center">人口（人）</th>
+        <th class="text-center">面積（km<sup>2</sup>）</th>
+    </tr>
+    <tr>
+        <td>東京都</td>
+        <td class="text-right">13,507,347人</td>
+        <td class="text-right">2,190.90km<sup>2</sup></td>
+    </tr>
+    <tr>
+        <td>神奈川県</td>
+        <td class="text-right">9,146,101人</td>
+        <td class="text-right">2,415.86km<sup>2</sup></td>
+    </tr>
+    <tr>
+        <td>大阪府</td>
+        <td class="text-right">8,838,988人</td>
+        <td class="text-right">1904.99km<sup>2</sup></td>
+    </tr>
+</table>
+        <div class="container">
+            <p>コンテンツ</p>
+        </div>
+        
+     <form class="form-horizontal">
+  <!-- "form-group" expresses a row -->
+  <div class="form-group">
+    <label class="col-xs-2 control-label">姓</label>
+    <div class="col-xs-10">
+      <input type="text" class="form-control" name="lastname">
+    </div>
+  </div>
+
+  <!-- row -->
+  <div class="form-group">
+    <label class="col-xs-2 control-label">名</label>
+    <div class="col-xs-10">
+      <input type="text" class="form-control" name="
+      firstname">
+    </div>
+  </div>
+
+  <!-- row -->
+  <div class="form-group">
+    <div class="col-xs-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default">登録</button>
+    </div>
+  </div>
+
+<form>
+  郵便番号
+  <div class="input-group">
+    <!-- left accessory -->
+    <span class="input-group-addon">〒</span>
+
+    <input type="text" class="form-control" placeholder="000-0000">
+  </div>
+</form>
+
+<a href="#" class="btn btn-default">aボタン</a>
+<input type="submit" class="btn btn-success" value="inputボタン">
+<button class="btn btn-danger" type="submit">buttonボタン</button>
+
+<button type="button" class="btn btn-default">
+  <span class="glyphicon glyphicon-download-alt"></span>
+  ダウンロード
+</button>
+
+<div class="dropdown">
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+    操作<span class="caret"></span>
+  </button>
+  <!-- choices -->
+  <ul class="dropdown-menu">
+    <li><a href="#">返信</a></li>
+    <li><a href="#">転送</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="#">削除</a></li>
+  </ul>
+</div>
+
+<ul class="nav nav-tabs">
+  <li class="active"><a href="#">収入</a></li>
+  <li><a href="#">支出</a></li>
+  <li><a href="#">合計</a></li>
+</ul>
+
+    </body>
+</html>
